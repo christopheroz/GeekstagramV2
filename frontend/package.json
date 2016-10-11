@@ -1,0 +1,16 @@
+{
+  "name": "Geekstagram",
+  "version": "1.0.0",
+  "description": "Réseau social pour geeks. Application avec AngularJs en front et Spring en back pour un projet pour l'ORT",
+  "main": "app.js",
+  "author": [
+    "Aliette RUPPERT <aliette.ruppert@gmail.com>",
+    "Jessica MANGINI <jessica.mangini@gmail.com>",
+    "Christophe ROZ <roz.christophe@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-route": "^1.4.9"
+  }
+}

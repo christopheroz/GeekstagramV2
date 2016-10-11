@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Nilin",
+    "password": "NilinPassword",
+    "email": "aliette.ruppert@gmail.com",
+    "token": ""
+  },
+  {
+    "id": 2,
+    "name": "Jessica",
+    "password": "JessicaPassword",
+    "email": "jessica.mangini@gmail.com",
+    "token": ""
+  },
+  {
+    "id": 3,
+    "name": "Christophe",
+    "password": "ChristophePassword",
+    "email": "roz.christophe@gmail.com",
+    "token": ""
+  },
+  {
+    "id": 4,
+    "name": "Foo",
+    "password": "FooPassword",
+    "email": "foo.bar@gmail.com",
+    "token": ""
+  }
+]
