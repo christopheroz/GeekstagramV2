@@ -1,0 +1,46 @@
+body { 
+	padding-bottom: 70px;
+	padding-top: 70px;
+	background-color: #eee;
+}
+
+.navbar-nav li a {
+	font-weight: bold;
+	color: #ffffff !important;
+}
+
+.panel-footer {
+	text-align: center;
+}
+
+.floatRight {
+	float: right;
+}
+
+.footer-geek{
+    color: #2e6da4;
+}
+
+.titre-geek{
+	text-align:center;
+}
+
+.navbar-geek {
+    background-color: #2e6da4;
+	border-color: transparent;
+}
+
+.navbar-geek {
+    color: #ffffff !important;
+}
+
+.div-post{
+	padding-bottom: 10px;
+}
+
+.form-geek{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 90px;
+	padding-right: 90px;
+}

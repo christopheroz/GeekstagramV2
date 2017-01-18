@@ -1,0 +1,32 @@
+<p ng-if="searchUserCtrl.notFound" class="alert alert-warning">Aucun résultat :(</p>
+<div ng-if="!searchUserCtrl.notFound">
+    <div class="panel panel-primary" ng-init="searchUserCtrl.getUsers()">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                Résultat
+            </h3>
+        </div>
+        <div class="panel-body">
+            <h2>{{ searchUserCtrl.user.name }} <small>{{ searchUserCtrl.user.email }}</small></h2>
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                Fil d'actualités
+            </h3>
+        </div>
+
+        <div class="panel-body">
+            <div class="div-post" ng-repeat="post in searchUserCtrl.postList">
+                <h3>{{ post.date_post.calendar | date : 'dd/MM/yyyy' }}</h3>
+                <p>
+                    {{ post.content_post }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
