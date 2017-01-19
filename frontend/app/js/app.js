@@ -35,3 +35,5 @@ app.config(['$routeProvider',
             })
     }
 ]);
+
+var url = 'http://172.20.10.12:8081/api/';

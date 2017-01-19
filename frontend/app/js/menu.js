@@ -1,7 +1,7 @@
 angular.module('Geekstagram.menu', [])
     .controller('menuController', function($location, $rootScope, $http) {
         var self = this;
-        var url = 'http://localhost:8081/api/';
+        // var url = 'http://localhost:8081/api/';
         self.user = {};
         self.isConnected = false;
         self.userList = [];

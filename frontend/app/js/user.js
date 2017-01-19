@@ -1,7 +1,7 @@
 angular.module('Geekstagram.user', [])
     .controller('userController', function($http, $location) {
         var self = this;
-        var url = 'http://localhost:8081/api/';
+        // var url = 'http://localhost:8081/api/';
 
         if (!localStorage.getItem('isConnected')) {
             $location.path('/login');

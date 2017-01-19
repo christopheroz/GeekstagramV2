@@ -1,7 +1,7 @@
 angular.module('Geekstagram.searchUser', [])
     .controller('searchUserController', function($location, $routeParams, $http) {
         var self = this;
-        var url = 'http://localhost:8081/api/';
+        // var url = 'http://localhost:8081/api/';
         self.user = false;
         self.notFound = false;
         self.userList = [];

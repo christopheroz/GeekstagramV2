@@ -1,7 +1,7 @@
 angular.module('Geekstagram.home', [])
     .controller('homeController', function($http, $location) {
         var self = this;
-        var url = 'http://localhost:8081/api/';
+        // var url = 'http://localhost:8081/api/';
         self.postList = [];
         self.userList = [];
         self.content = '';
